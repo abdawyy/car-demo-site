@@ -1,0 +1,244 @@
+#navbarSupportedContent{
+    margin-left: 480px;
+
+
+}
+nav{
+    background-color: gray;
+}
+nav .button{
+    margin-right: 100px;
+    background-color: white;
+    border: 1px solid rgb(189, 20, 20) ;
+}
+nav div .shad::after{
+    background-color: brown;
+    width: 10px;
+    height: 2px;
+}
+.Home{
+    background: url(/images/pexels-mike-bird-3729464-removebg-preview\ \(1\).png);
+    object-fit: contain;
+    background-position: top;
+    background-size:contain;
+    height: 600px;
+    
+    background-repeat: no-repeat;
+    background-color: rgb(229 229 229 );
+    opacity: 1;
+
+}
+.card-body{
+    border: 0px;
+    position: absolute;
+    top: 250px;
+    bottom: 0px;
+    right: 0px;
+    left: 1200px;
+    background-color: transparent;
+    
+}
+.car-wash{
+    background: url(/images/photo-1607860108855-64acf2078ed9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 680px;
+    color: white;
+    font-size: xx-large;
+}
+.car-wash h1{
+    font-size: 100px;
+}
+.stat{
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    opacity: 0.7;
+}
+.stat p{
+    font-size: 18px;
+}
+.spc{
+    width: 5px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+}
+.complex-section{
+    
+    background-color: rgb(18, 17, 17);
+    
+}
+.complex-section h1{
+    font-size: 64px;
+    color: white;
+}
+.complex-section p{
+    color: gray;
+}
+.complex-section .red{
+    color: red;
+}
+.card{
+    border: 0px;
+}
+.complex-section .butn {
+    margin-bottom: 25px;
+    padding: 5px;
+    border: 1px solid gray;
+}
+.complex-section .butt{
+    background-color: red;
+    padding: 20px;
+    color: white;
+}
+.complex-section .buyy{
+    background-color: gray;
+    height: 200px;
+    opacity: 0.4;
+    transition: all 1s ease;
+}
+.complex-section .buyy:hover{
+    opacity: 1;
+    cursor: pointer;
+    height: 250px;
+
+}
+.complex-section .trans{
+    width: 90%;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    
+}
+.btn-af{
+    border: 0px;
+    border-radius: 190px;
+    position: absolute;
+    top: 3400px;
+    left: 700px;
+    
+}
+.About-com .content{
+    margin-top: 200px;
+    
+}
+.About-com h1{
+    font-size: 80px;
+}
+.About-com .cont-img{
+    margin-top: 200px;
+  
+    
+} 
+.About-com .serv-card{
+   
+    margin-top: 100px;
+    width: 110%;
+}
+.About-com .serv-card p{
+    color: red;
+}
+.card-cont{}
+.clients h1{
+    font-size: 64px;
+    font-weight: bold;
+
+}
+a{
+    text-decoration: none;
+
+}
+footer{
+    height: 50vh;
+    background-color: rgb(21, 20, 20);
+}
+.clients button{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border: 0px;
+    border-radius: 20px;
+    background-color: gray;
+    transition: all 1s ease;
+}
+.clients button:hover{
+background-color: rgb(220, 29, 29);
+}
+.redcol{
+    background-color: rgb(220, 29, 29) !important;
+} 
+@media screen and (max-width:576px ) {
+    footer{
+        height: 80vh;
+    }
+    .Home .container{
+        position: absolute;
+        top: 330px;
+        
+    }
+    .card-body{
+        display: none;
+    }
+    .car-wash{
+
+    }
+    .navbar-toggler-icon{
+        
+    }
+    .navbar-collapse{
+       
+        position: relative;
+        z-index: 555;
+    }
+
+    .navbar > .container-sm{
+        background-color: red;
+    }
+    #navbarSupportedContent{
+        margin-left: 0px;
+    }
+    .car-wash h1{
+        font-size: 64px;
+    }
+    .car-wash .stat{
+        height: 415px;
+    }
+    .btn-af{
+        top: 5582;
+        left: 155;
+    }
+    .complex-section .buyy:hover{
+        opacity: 1;
+        cursor: pointer;
+        height: 200px;
+      
+    
+    }
+    .cont-img img{
+        width: 370px;
+        margin-right: 0px
+    }
+    .cont-img .serv-card {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .clients h1{
+        font-size: 54px;
+        
+
+    }
+    .clients img{
+        width: 390px;
+    }
+    
+
+
+    
+}
+
+
+
+
+
+

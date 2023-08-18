@@ -1,0 +1,60 @@
+.Home{
+    background: url();
+}
+.Home h1{
+    font-size: 64px;
+}
+.Home p{
+    font-size: 22px;
+    color: gray;
+}
+.car-wash{
+    background-size: contain;
+    background: url(/images/about/about.jpeg);
+    background-repeat: no-repeat;
+    height: 85vh;
+}
+.car-wash h1{
+    font-size: 80px;
+}
+.carousel {
+    width: 60%;
+    margin: auto;
+}
+.carousel h1{
+    font-size: 64px;
+    font-weight: bolder;
+}
+.Home .container{
+    position: relative;
+    top: 0px;
+}
+@media screen and (max-width:576px ) {
+    .Home h1{
+        font-size: 32px;
+    }
+    .car-wash h1{
+        font-size: 50px;
+        margin: 0;
+    }
+    .cont-img img{
+        width: 350px;
+        margin-left: 0px;
+    } 
+    .car-wash{
+        height: 83vh;
+        
+    }
+
+    .carousel{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .carousel h1{
+        font-size: 40px;
+
+    }
+    
+    
+    
+}

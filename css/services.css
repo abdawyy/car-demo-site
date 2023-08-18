@@ -1,0 +1,46 @@
+.complex-section h1{
+    font-size: 54px;
+
+}
+.box-one{
+    
+}
+.box-two{
+   
+    
+}
+.serv-card{
+    transition: 2s all ease;
+}
+.serv-card:hover{
+    box-shadow: 0px 0px 50px 5px white;
+    cursor: pointer;
+}
+.serv-card .spc{
+    width: 1px;
+}
+.serv-card p span{
+    font-weight: bolder;
+    color: red;
+}
+form{
+    transition: 2s all ease;
+}
+form:hover{
+    box-shadow: 0px 0px 50px 20px black;
+
+} 
+.car-wash{
+    background-size: contain;
+    background: url(/images/about/about.jpeg);
+    background-repeat: no-repeat;
+    height: 85vh;
+}
+
+@media screen and (max-width:576px ) {
+    .contact img{
+        width: 360px;
+    
+    }
+}
+
